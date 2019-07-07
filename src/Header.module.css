@@ -1,0 +1,25 @@
+.heading{
+
+	height: 50vh;
+	background-size: cover;
+	/*filter: blur(1px);*/
+	color: white;
+	background-image:linear-gradient(#000b,#0009),url("./pic.jpg");
+}
+
+.headcontent{
+	transform: translate(50%,130%);
+		width: 50%;
+		
+}
+.headcontent>h2{
+		font-size: 30px;
+		letter-spacing: 12px;
+		text-align: center;
+		
+}
+.headcontent>p{
+		font-size: 30px;
+		text-align: center;
+		letter-spacing:17px;	
+}

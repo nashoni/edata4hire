@@ -1,0 +1,9 @@
+.service{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.service>img {
+	width: 40%;
+	 height:60vh
+}

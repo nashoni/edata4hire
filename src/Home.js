@@ -1,13 +1,22 @@
 import React from 'react';
-import style from  './Home.module.css';
-function Home() {
+import  Header from './Header';
+import  {BrowserRouter as Router} from 'react-router-dom'
+import  Navigation from './Navigation';
+import  Details from './Details';
+import  Signin from './Signin';
+
+const Home = (props) => {
   return (
-    <div >
-      <header className={style.header}>
-      	
-      </header>
+    <div>
+
+        <Navigation/>
+            <Signin/>
+    	<Header/>
+
+
+<Details/>
     </div>
-  );
+  )
 }
 
 export default Home;
